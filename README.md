@@ -43,7 +43,6 @@ image = "debian-cloud/debian-9"
 ssh_user = "gauth"
 ssh_pub_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILBd8AerMuCVlT1ERPifxLdJ4ctQATQX6XMrzpQLK1kf master@starfly.fr"
 instance_type = "n1-standard-2"
-GOOGLE_CREDENTIALS = "fhdskjfs"
 ```
 
 Modify variables to use it.
