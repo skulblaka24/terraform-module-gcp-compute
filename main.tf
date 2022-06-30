@@ -34,8 +34,8 @@ resource "google_compute_instance" "tfe" {
   }
   
   network_interface {
-    network = "paloaltonetwork1"
-    subnetwork = "network1"
+    network = "default"
+    subnetwork = "default"
   }
 
   metadata = {
