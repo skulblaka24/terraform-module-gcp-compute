@@ -35,7 +35,6 @@ resource "google_compute_instance" "tfe" {
   
   network_interface {
     network = "default"
-    subnetwork = "default"
   }
 
   metadata = {
