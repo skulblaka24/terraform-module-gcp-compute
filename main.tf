@@ -32,10 +32,6 @@ resource "google_compute_instance" "tfe" {
       )
     }
   }
-  
-  network_interface {
-    network = "default"
-  }
 
   metadata = {
     sshKeys   = "${var.ssh_user}:${var.ssh_pub_key}"
